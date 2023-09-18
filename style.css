@@ -273,7 +273,7 @@ footer {
 
 /* header */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     header {
       flex-direction: column;
       height: 30vh;
@@ -290,6 +290,10 @@ footer {
 
     .nav_links {
         width: 100vw;
+    }
+
+    .nav_links li a {
+        font-size: 2vh;
     }
 
     /* main */
@@ -330,7 +334,7 @@ footer {
 
     .link_tree h2 {
         color: #006080;
-        font-size: 5vh;
+        font-size: 3vh;
     }
 
     .link_tree div {
@@ -341,7 +345,7 @@ footer {
     }
 
     .link_tree div img {
-        height: 4vh;
+        height: 3vh;
     }
 
     .link_tree div a {
