@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    background-color: #DDD;
+}
+
+header {
+    background-color: #1f1f1f;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin: 0px 0px 5vh 0px;
+}
+
+/* classes */
+
+/* header */
+
+.header_img {
+    height: 15vh;
+    margin: 0px 0px 0px 2vw;
+}
+
+.nav_links {
+    display: flex;
+    list-style: none;
+    width: 45vw;
+    justify-content: space-around;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #006080;
+    font-weight: 500;
+    font-size: 2vh
+}
+
+.nav_links li a:hover {
+    text-decoration: underline;
+}
+
+/* main */
+
+.sec_1 {
+    height: 80vh;
+    background-image: url(img/sec_1_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #006080;
+    text-shadow: 1vh 0.5vh #1f1f1f;
+    font-size: 15vh;
+    max-width: 80vw;
+    text-align: center;
+}
+
+/* ids */
+
+/* header */
+
+#login_btn {
+    background-color: #006080;
+    color: #1f1f1f;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 30px;
+}
+
+/* media */
+
+/* header */
+
+@media screen and (max-width: 900px) {
+    header {
+      flex-direction: column;
+      height: 30vh;
+      justify-content: space-around;
+    }
+
+    /* classes */
+
+    /* header */
+
+    .nav_links {
+        width: 100vw;
+    }
+
+    /* main */
+
+    .title {
+        max-width: 50vh;
+        font-size: 10vh;
+    }
+
+    /* ids */
+
+    /* header */
+}
