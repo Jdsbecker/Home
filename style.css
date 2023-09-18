@@ -311,6 +311,7 @@ footer {
     .img div{
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .img div p{
