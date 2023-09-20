@@ -269,6 +269,28 @@ footer {
     background-color: #1f1f1f;
 }
 
+/* footer */
+
+#location_box {
+    display: none;
+    color: #006080;
+    flex-direction: column;
+    margin: 0px 2vw 0px 0px;
+}
+
+#location_box h2 {
+    font-size: 4vh;
+}
+
+#location_box p {
+    font-size: 3.5vh;
+    max-width: 40vw;
+}
+
+#location_img {
+    display: flex;
+}
+
 /* media */
 
 /* header */
@@ -438,6 +460,16 @@ footer {
         height: 80vh;
         width: 90vw;
         background-color: #1f1f1f;
+    }
+
+    /* footer */
+
+    #location_box {
+        display: flex;
+    }
+
+    #location_img {
+        display: none;
     }
 }
 
