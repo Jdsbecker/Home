@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebPage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <section>
+            <a href="../Home/index.html"><img id="header_logo" src="img/gitlab-line.svg" alt="logo"></a>
+        </section>
+        <section id="sec_nav_links">
+            <img onclick="menuOpen()" id="nav_links_btn" src="img/menu-line.svg" alt="">
+            <ul id="nav_links">
+                <li class="nav_link"><a href="">Projects_ongoing</a></li>
+                <li class="nav_link"><a href="">Projects_finished</a></li>
+                <li class="nav_link"><a href="">About me</a></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div id="div_1">
+                <h1 id="title">My Ongoing projects</h1>
+                <button id="title_btn" onclick=" window.scrollTo({ top: 640, behavior: 'smooth' })"><img src="img/arrow-down.svg" alt=""></button>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
